@@ -28,7 +28,7 @@ public class CheckOrderCreateTest extends BaseUITest{
 
     //тестовые данные
     @Parameterized.Parameters
-    public static Object[][] getOrderIsSuccessful() {
+    public static Object[][] getOrderCreateIsSuccessful() {
         return new Object[][] {
                 {"Маша","Иванова","Зеленая 5","+79119054545","2024-10-30","black"},
                 {"Коля","Герасимов","Красная 7","+79214504545","2024-11-01","grey"},
